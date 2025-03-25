@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "XMovies",
-    "slug": "xcite",
+    "slug": "xmovies",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/logo.png",
@@ -15,7 +15,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/logo.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.fahmudull_3.xmovies"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +37,15 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "db76d3df-0f25-4731-967e-ba70ae5658b6"
+      }
+    },
+    "owner": "fahmudull_3"
   }
 }
